@@ -1,7 +1,7 @@
 /**
  * DATATYPES:
  * 
- * 0: (introduction)
+ * 0: 
  * 
  * 
  * 
@@ -36,11 +36,13 @@
 
 
 // 7. Undefined //
-
+let myVar; // variable is declared but unassigned
+console.log(myVar); // Output: undefined
 
 
 // 8. null //
-
+let myVar = null;
+console.log(myVar); // Output: null
 
 
 // 9. NaN //
