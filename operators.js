@@ -61,7 +61,9 @@ console.log(3 <= 5);    // true
 
 // 4. Logical operators //
 
-
+&& // returns true if all operands are truthy
+|| // returns true if a tleast one operand is truthy
+! // inverts the boolean value of its operand
 
 console.log(true && false); // false
 console.log(true || false); // true
@@ -69,6 +71,24 @@ console.log(!true);         // false
 
 
 // 5. Urnary operators (!, typeOf, - ) //
+// 1: Unary operators operate on a single operand to produce a new value
 
+! // inverts the boolean value of the operand
+const x = true;
+console.log(!x); // Outputs: false
+
+typeof // returns a string indicating the datatype
+const x = 5;
+console.log(typeof x); // Outputs: 'number'
+
+- // converts its operand to a number and negates it 
+const a = '5';
+const b = -a; // b is now the number -5
 
 // 6. Ternary operators ( a ? b : c ) //
+// 1: Evaluates a condition and returns one of two values based on whether the condition is true or false
+condition ? value_if_true : value_if_false
+
+const age = 21;
+const canDrink = age >= 21 ? 'Yes' : 'No';
+console.log(canDrink); // Outputs: Yes
