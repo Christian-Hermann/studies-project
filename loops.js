@@ -4,10 +4,6 @@
  * 0: Loops are control flow statements that allow for the repeated execution of a block of code.
  *  Thet are used for reptiitive tasks and iterating over data structures.
  * 
- * 
- * 
- * 
- * 
  */
 
 // 1. Explain While, for, and for-in loops.
