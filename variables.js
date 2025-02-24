@@ -70,4 +70,32 @@ city = "Chicago";  // Error: Assignment to constant variable.
 
 
 // 3. Hoisting //
+// Hoisting is a behavior where variable and function decalrations are moved to the top
+// or "hoisted" to the top of their scope during the compile phase before the code is exectued. 
+// 
+// JavaScript processes variable and function declarations before running the code.
+
+// Hoisting with variables
+
+// var // only the declaration is hoisted not the initialization
+// let and const // both are hoisted but not initialized
+
+let a;        // Declaration is hoisted, but initialization happens later
+console.log(a);  // ReferenceError: Cannot access 'a' before initialization
+a = 10;       // Initialization 
+
+// Hoisting with functions
+
+// the entire function, declaration and defintion is hoisted. Yuo can call the function
+// before its declaration
+
+greet();  // Output: "Hello"
+function greet() {
+  console.log("Hello");
+}
+
+sayHello();  // TypeError: sayHello is not a function
+var sayHello = function() {
+  console.log("Hi");
+};
 
