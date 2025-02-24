@@ -47,7 +47,6 @@ CharAt() // Gets a character at a specific position
 let str = "Christian";
 let char = str.charAt(1);  // "h"
 
-
 let string = "Christian";
 let upperStr = str.toUpperCase();  // "CHRISTIAN"
 let lowerStr = str.toLowerCase();  // "christian"
